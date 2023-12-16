@@ -12,6 +12,7 @@ body {
 .title {
   background: #e3f4ff;
   padding: 8px;
+
 }
 
 .content {
@@ -25,12 +26,13 @@ body {
 .button-container {
   background: #e3f4ff;
   padding: 8px;
-  border:solid red;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  padding: 8px 24px;
+  margin: 0px auto;
 }
